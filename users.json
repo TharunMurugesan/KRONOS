@@ -1,0 +1,5 @@
+{
+  "_comment": "Kronos registered users. Each key is a lowercase email; each value contains name, salt, hash, iterations, createdAt. Passwords are PBKDF2-SHA256 derived (200,000 iterations + per-user salt) — never plaintext. This file is bundled with the static deploy so the same accounts are available from any browser that loads the site.",
+  "_version": 1,
+  "users": {}
+}
